@@ -11,6 +11,8 @@ Hello
   <?php if (isset($_GET['submitted'])) { ?>
     <h1>The server had accepted:</h1>
     <p>radio: <?php echo htmlspecialchars($_GET['radio']); ?></p>
+    <p>text: <?php echo htmlspecialchars($_GET['name']); ?></p>
+    <p>textarea: <?php echo htmlspecialchars($_GET['textarea']); ?></p>
     <p>Try again? <a href="/index.php">Yes!</a></p>
   <?php } ?>
 
@@ -26,14 +28,22 @@ Hello
       <input id="my-radio-no" name="radio" type="radio" required value="No"></p>
     <br>
       <p>
+	<label for="surname">Имя: </label>
         <input id="surname" type="text" name="name"><br>
-	      <label for="surname">Имя: </label>
       </p>
-      <textarea name="textarea" id="text1" cols="20" rows="10"></textarea><br>
+      <textarea name="textarea" id="text1"></textarea><br>
       <p>
 			<label for="my-color">color: </label>
 			<input id="my-color" type="color">
-		  </p>
+	</p>
+	  <p>
+			<label for="my-select">select: </label>
+			<select name="" id="my-select" size="1" required>
+				<option value="">--------</option>
+				<option value="1">Первая</option>
+				<option value="2" selected>Вторая</option>
+			</select>
+	</p>
       
     <input type="submit" value="Submit">
     <input type="reset" value="Clear">
