@@ -9,17 +9,21 @@
 <body>
 Hello
   <?php if (isset($_GET['submitted'])) { ?>
+   <div style="border:1px solid red;">
     <h1>The server had accepted:</h1>
     <p>radio: <?php echo htmlspecialchars($_GET['radio']); ?></p>
     <p>text: <?php echo htmlspecialchars($_GET['name']); ?></p>
     <p>textarea: <?php echo htmlspecialchars($_GET['textarea']); ?></p>
+    <p>select: <?php echo htmlspecialchars($_GET['select']); ?></p>
+    <p>color: <?php echo htmlspecialchars($_GET['color']); ?></p>
+	</div>
     <p>Try again? <a href="/index.php">Yes!</a></p>
   <?php } ?>
 
   <?php if (!isset($_GET['submitted'])) { ?>
   
   <h1>Play with the HTML form</h1>
-  <form action="/index.php">
+  <form style="border: 1px solid green;" action="/index.php">
     <input type="hidden" name="submitted" value="yes">
     <p>
       <label for="my-radio-yes">radio Yes: </label>
@@ -33,12 +37,12 @@ Hello
       </p>
       <textarea name="textarea" id="text1"></textarea><br>
       <p>
-			<label for="my-color">color: </label>
+			<label name="color" for="my-color">color: </label>
 			<input id="my-color" type="color">
 	</p>
 	  <p>
 			<label for="my-select">select: </label>
-			<select name="" id="my-select" size="1" required>
+			<select name="select" id="my-select" size="1" required>
 				<option value="">--------</option>
 				<option value="1">Первая</option>
 				<option value="2" selected>Вторая</option>
