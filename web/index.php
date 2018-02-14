@@ -9,7 +9,7 @@
 <body>
 Hello
   <?php if (isset($_GET['submitted'])) { ?>
-   <div style="border:1px solid red;">
+   <div style="border:1px solid red; backgraund-color: yellow; border-radius: <?php echo htmlspecialchars($_GET['range']); ?> ">
     <h1>The server had accepted:</h1>
     <p>radio: <?php echo htmlspecialchars($_GET['radio']); ?></p>
     <p>text: <?php echo htmlspecialchars($_GET['name']); ?></p>
@@ -48,6 +48,10 @@ Hello
 				<option value="2" selected>Вторая</option>
 			</select>
 	</p>
+	  <p>
+			<label for="my-range">range: </label>
+			<input name="range" id="my-range" type="range" min="0" max="10">
+		</p>
       
     <input type="submit" value="Submit">
     <input type="reset" value="Clear">
