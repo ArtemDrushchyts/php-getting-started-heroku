@@ -25,6 +25,16 @@ Hello
       <label for="my-radio-no">radio No: </label>
       <input id="my-radio-no" name="radio" type="radio" required value="No"></p>
     <br>
+      <p>
+        <input id="surname" type="text" name="name"><br>
+	      <label for="surname">Имя: </label>
+      </p>
+      <textarea name="textarea" id="text1" cols="20" rows="10"></textarea><br>
+      <p>
+			<label for="my-color">color: </label>
+			<input id="my-color" type="color">
+		  </p>
+      
     <input type="submit" value="Submit">
     <input type="reset" value="Clear">
   </form>
