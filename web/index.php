@@ -37,8 +37,8 @@ Hello
       </p>
       <textarea name="textarea" id="text1"></textarea><br>
       <p>
-			<label name="my-color" for="my-color">color: </label>
-			<input id="my-color" type="color">
+			<label  for="my-color">color: </label>
+			<input name="my-color" id="my-color" type="color">
 	</p>
 	  <p>
 			<label for="my-select">select: </label>
