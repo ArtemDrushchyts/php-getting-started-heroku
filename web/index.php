@@ -15,7 +15,7 @@ Hello
     <p>text: <?php echo htmlspecialchars($_GET['name']); ?></p>
     <p>textarea: <?php echo htmlspecialchars($_GET['textarea']); ?></p>
     <p>select: <?php echo htmlspecialchars($_GET['select']); ?></p>
-    <p>color: <?php echo htmlspecialchars($_GET['color']); ?></p>
+    <p>color: <?php echo htmlspecialchars($_GET['my-color']); ?> : color <span style="background-color: <?php echo htmlspecialchars($_GET['my-color']); ?>;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span> </p>
 	</div>
     <p>Try again? <a href="/index.php">Yes!</a></p>
   <?php } ?>
@@ -37,7 +37,7 @@ Hello
       </p>
       <textarea name="textarea" id="text1"></textarea><br>
       <p>
-			<label name="color" for="my-color">color: </label>
+			<label name="my-color" for="my-color">color: </label>
 			<input id="my-color" type="color">
 	</p>
 	  <p>
