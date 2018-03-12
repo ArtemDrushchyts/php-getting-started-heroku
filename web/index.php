@@ -52,9 +52,9 @@ h1, h2, h3, h4, h5, h6{margin-bottom:1.1em;}
 
 <body>
 
-		<a name="main"></a>
+		<a id="main"></a>
 <div class="block1">
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid">
 			<!-- название сайта и кнопка для раскрытия меню на телефоне -->
 			<div class="navbar-header">
@@ -85,14 +85,14 @@ h1, h2, h3, h4, h5, h6{margin-bottom:1.1em;}
 			<div class="header-button-block">
 			<a href="https://www.google.ru/" alt="прокат" class="header-button">Взять на прокат</a>
 			</div>
-		</div class="mask">
+		</div>
 	    <video loop muted autoplay poster="video/plane.jpg" class="fullscreen-bg__video">
 	        <source src="video/video2.mp4" type="video/mp4">
 	        <source src="video/plane.webm" type="video/webm">
 	    </video>
 	</div>
 </div>
-	<a name="features"></a>
+	<a id="features"></a>
 	<section class="features">
 		
 		<div class="container">
@@ -148,7 +148,7 @@ h1, h2, h3, h4, h5, h6{margin-bottom:1.1em;}
 
 			<div class="row">
 				<div class="col-md-6">
-					<div block3-img>
+					<div>
 					<img class="img-responsive img-rounded" src="img/advantages/700_FO59051698_4669ec16b8c18f2d0e8672aafae9d52c.jpg" alt="лыжи">
 					</div>
 				</div>
@@ -197,7 +197,7 @@ h1, h2, h3, h4, h5, h6{margin-bottom:1.1em;}
 		</div>
 	</section>
 
-		<a name="foto"></a>
+		<a id="foto"></a>
 	<div class="carousel slide" id="carousel">
 		<!--Индикаторы слайдов-->
 		<ol class="carousel-indicators">
@@ -237,7 +237,7 @@ h1, h2, h3, h4, h5, h6{margin-bottom:1.1em;}
 		</a>
 	</div>
 	
-	<a name="block4"></a>
+	<a id="block4"></a>
 	<section class="block-4">
 		
 		<div class="container">
@@ -511,7 +511,7 @@ h1, h2, h3, h4, h5, h6{margin-bottom:1.1em;}
 
 
 	<footer class="footer">
-		<a name=cont></a>
+		<a id=cont></a>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4">
