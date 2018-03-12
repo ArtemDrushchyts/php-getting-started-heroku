@@ -18,7 +18,21 @@
 	<link rel="stylesheet" href="css/animate.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<style></style>
+	<style>body{font-family:sans-serif;font-size:16px;min-width:320px;position:relative;line-height:1.6;font-family:"RobotoRegular", sans-serif;overflow-x:hidden;}
+.hidden{display:none;}
+body{padding:0;margin:0;font-family:'Roboto Condensed', sans-serif;width:100%;}
+h1, h2, h3, h4, h5, h6{font-family:'Roboto Slab', serif;}
+h1, h2, h3, h4, h5, h6{margin-bottom:1.1em;}
+.navbar-brand img{width:50px;margin-top:-15px;}
+.navbar-default .navbar-nav > li > a{font-size:25px;margin-right:25px;}
+.block1{height:100%;}
+.overlay h1{text-align:center;color:#fff;font-size:50px;margin-top:17%;}
+.header-button-block{text-align:center;}
+.header-button{display:inline-block;text-decoration:none;border-radius:50px;cursor:pointer;border:none;background-color:#ffffff;color:#072b6f;font-weight:700;padding:17px 55px;margin-top:33px;z-index:50;}
+.header-button:hover{background-color:#3F3FB7;color:#ffffff;text-decoration:none;}
+.fullscreen-bg{overflow:hidden;position:relative;width:100%;padding-top:45%;}
+.fullscreen-bg__video{position:absolute;top:0;left:0;width:100%;z-index:-200;}
+.overlay{background:rgba(0,0,0,0.6);position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;}</style>
 
 	<!-- Fonts Loader from _fonts.css (HTML5 LocalStorage) -->
 	<script>!function(){function e(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)}function t(e){return window.localStorage&&localStorage.font_css_cache&&localStorage.font_css_cache_file===e}function n(){if(window.localStorage&&window.XMLHttpRequest)if(t(o))a(localStorage.font_css_cache);else{var n=new XMLHttpRequest;n.open("GET",o,!0),e(n,"load",function(){4===n.readyState&&(a(n.responseText),localStorage.font_css_cache=n.responseText,localStorage.font_css_cache_file=o)}),n.send()}else{var c=document.createElement("link");c.href=o,c.rel="stylesheet",c.type="text/css",document.getElementsByTagName("head")[0].appendChild(c),document.cookie="font_css_cache"}}function a(e){var t=document.createElement("style");t.innerHTML=e,document.getElementsByTagName("head")[0].appendChild(t)}var o="_fonts.css";window.localStorage&&localStorage.font_css_cache||document.cookie.indexOf("font_css_cache")>-1?n():e(window,"load",n)}();</script>
