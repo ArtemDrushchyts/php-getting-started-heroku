@@ -466,10 +466,10 @@ h1, h2, h3, h4, h5, h6{margin-bottom:1.1em;}
 				<div class="col-md-4">
 					<div class="contact">
 					<h3>Наши контакты</h3>
-					<p><i class="fa fa-map-marker" aria-hidden="true"></i>  Наш адрес: г. Минск пр. Рокоссовского</p>
-					<p><i class="fa fa-phone" aria-hidden="true"></i>  +375(29)8888888</p>
-					<p><i class="fa fa-envelope-o" aria-hidden="true"></i>  snowbord@yandex.ru</p>
-					<p><i class="fa fa-clock-o" aria-hidden="true"></i>  Режим работы: ежедневно 8.00 до 23.00</p>
+					<p><i class="fas fa-location-arrow" aria-hidden="true"></i>  Наш адрес: г. Минск пр. Рокоссовского</p>
+					<p><i class="fas fa-phone" aria-hidden="true"></i>  +375(29)8888888</p>
+					<p><i class="fas fa-envelope" aria-hidden="true"></i>  snowbord@yandex.ru</p>
+					<p><i class="far fa-clock" aria-hidden="true"></i>  Режим работы: ежедневно 8.00 до 23.00</p>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -525,6 +525,7 @@ h1, h2, h3, h4, h5, h6{margin-bottom:1.1em;}
 	</script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 	<!-- Load Scripts -->
 	<script>var scr = {"scripts":[
 		{"src" : "libs/modernizr/modernizr.js", "async" : false},
