@@ -37,19 +37,15 @@ h1, h2, h3, h4, h5, h6{margin-bottom:1.1em;}
 	
 	<!-- Load CSS Compilled without JS -->
 	<noscript><link rel="stylesheet" href="compiled.min.css"></noscript>
-
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
 	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
 	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
-
 </head>
 
 <body>
-
 		<a id="main"></a>
 <div class="block1">
 <nav class="navbar navbar-default navbar-fixed-top">
@@ -92,7 +88,6 @@ h1, h2, h3, h4, h5, h6{margin-bottom:1.1em;}
 </div>
 	<a id="features"></a>
 	<section class="features">
-		
 		<div class="container">
 			<h2 class="features-title">ПОЧЕМУ КЛИЕНТЫ ВЫБИРАЮТ НАС</h2>
 			<div class="row">
@@ -125,7 +120,6 @@ h1, h2, h3, h4, h5, h6{margin-bottom:1.1em;}
 		</div>
 	</section>
 		
-
 	<section class="block2">
 		<div class="container-fluid">
             <div class="row">
@@ -143,7 +137,6 @@ h1, h2, h3, h4, h5, h6{margin-bottom:1.1em;}
 	<section class="block3">
 		<h2 class="block3-title">НАШИ ПРЕИМУЩЕСТВА</h2>
 		<div class="container">
-
 			<div class="row">
 				<div class="col-md-6">
 					<div>
@@ -155,7 +148,6 @@ h1, h2, h3, h4, h5, h6{margin-bottom:1.1em;}
 					<p>В течение сезона мы следим за снаряжением и поддерживаем его в отличном состоянии. Для этого у нас есть целая мастерская с первоклассными специалистами!</p>
 				</div>
 			</div>
-
 			<div class="row">
 				<div class="col-md-6">
 					<h3>ОБУЧЕНИЕ</h3>
@@ -167,7 +159,6 @@ h1, h2, h3, h4, h5, h6{margin-bottom:1.1em;}
 					</div>
 				</div>
 			</div>
-
 			<div class="row">
 				<div class="col-md-6">
 					<div class="block3-img">
@@ -179,7 +170,6 @@ h1, h2, h3, h4, h5, h6{margin-bottom:1.1em;}
 					<p>Любой сноубордист может оставить свое снаряжение у нас на ночь, чтобы не таскаться с ним по всему Минску. А для наших клиентов, это совсем бесплатно!</p>
 				</div>
 			</div>
-
 			<div class="row">
 				<div class="col-md-6">
 					<h3>ОБСЛУЖИВАНИЕ</h3>
@@ -191,7 +181,6 @@ h1, h2, h3, h4, h5, h6{margin-bottom:1.1em;}
 					</div>
 				</div>
 			</div>
-
 		</div>
 	</section>
 
@@ -236,22 +225,18 @@ h1, h2, h3, h4, h5, h6{margin-bottom:1.1em;}
 	</div>
 	
 	<a id="block4"></a>
-	<section class="block-4">
-		
+	<section class="block-4">	
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4">
 					<img src="img/prokat/p1.jpg" alt="доска" class="img-responsive">
 				</div>
-				<div class="col-md-8">
-					<h3>Прокат сноубордов</h3>
-					
-					<div class="row">
+				<div class="col-md-8 text3">
+					<h3>Прокат сноубордов</h3>					
+					<div class="row text2">
 						<div class="col-md-4">
-							<div class="row">
 								<div class="col-md-6">1 сутки</div>
 								<div class="col-md-6"><span>15 p.</span></div>
-							</div>
 						</div>
 						<div class="col-md-4">
 							<div class="col-md-6">2 суток</div>
@@ -262,12 +247,10 @@ h1, h2, h3, h4, h5, h6{margin-bottom:1.1em;}
 							<div class="col-md-6"><span>13 p.</span></div>
 						</div>
 					</div>
-					<div class="row">
+					<div class="row text2">
 						<div class="col-md-4">
-							<div class="row">
 								<div class="col-md-6">7 суток</div>
 								<div class="col-md-6"><span>10 p.</span></div>
-							</div>
 						</div>
 						<div class="col-md-4">
 							<div class="col-md-6">8 суток</div>
@@ -285,15 +268,12 @@ h1, h2, h3, h4, h5, h6{margin-bottom:1.1em;}
 				<div class="col-md-4">
 					<img src="img/prokat/p2.jpg" alt="доска" class="img-responsive">
 				</div>
-				<div class="col-md-8">
-					<h3>Прокат горнолыжной куртки</h3>
-					
-					<div class="row">
+				<div class="col-md-8 text3">
+					<h3>Прокат горнолыжной куртки</h3>				
+					<div class="row text2">
 						<div class="col-md-4">
-							<div class="row">
 								<div class="col-md-6">1 сутки</div>
 								<div class="col-md-6"><span>8 p.</span></div>
-							</div>
 						</div>
 						<div class="col-md-4">
 							<div class="col-md-6">2 суток</div>
@@ -304,12 +284,10 @@ h1, h2, h3, h4, h5, h6{margin-bottom:1.1em;}
 							<div class="col-md-6"><span>6 p.</span></div>
 						</div>
 					</div>
-					<div class="row">
+					<div class="row text2">
 						<div class="col-md-4">
-							<div class="row">
 								<div class="col-md-6">7 суток</div>
 								<div class="col-md-6"><span>5 p.</span></div>
-							</div>
 						</div>
 						<div class="col-md-4">
 							<div class="col-md-6">8 суток</div>
@@ -321,14 +299,11 @@ h1, h2, h3, h4, h5, h6{margin-bottom:1.1em;}
 						</div>
 					</div>
 
-					<h3>Прокат горнолыжныч штанов</h3>
-					
-					<div class="row">
+					<h3>Прокат горнолыжныч штанов</h3>	
+					<div class="row text2">
 						<div class="col-md-4">
-							<div class="row">
 								<div class="col-md-6">1 сутки</div>
 								<div class="col-md-6"><span>8 p.</span></div>
-							</div>
 						</div>
 						<div class="col-md-4">
 							<div class="col-md-6">2 суток</div>
@@ -339,12 +314,10 @@ h1, h2, h3, h4, h5, h6{margin-bottom:1.1em;}
 							<div class="col-md-6"><span>6 p.</span></div>
 						</div>
 					</div>
-					<div class="row">
+					<div class="row text2">
 						<div class="col-md-4">
-							<div class="row">
 								<div class="col-md-6">7 суток</div>
 								<div class="col-md-6"><span>5 p.</span></div>
-							</div>
 						</div>
 						<div class="col-md-4">
 							<div class="col-md-6">8 суток</div>
@@ -355,7 +328,6 @@ h1, h2, h3, h4, h5, h6{margin-bottom:1.1em;}
 							<div class="col-md-6"><span>3 p.</span></div>
 						</div>
 					</div>
-
 				</div>
 			</div>
 
@@ -363,15 +335,12 @@ h1, h2, h3, h4, h5, h6{margin-bottom:1.1em;}
 				<div class="col-md-4">
 					<img src="img/prokat/p3.jpg" alt="доска" class="img-responsive">
 				</div>
-				<div class="col-md-8">
-					<h3>Прокат шлема</h3>
-					
-					<div class="row">
+				<div class="col-md-8 text3">
+					<h3>Прокат шлема</h3>			
+					<div class="row text2">
 						<div class="col-md-4">
-							<div class="row">
 								<div class="col-md-6">1 сутки</div>
 								<div class="col-md-6"><span>5 p.</span></div>
-							</div>
 						</div>
 						<div class="col-md-4">
 							<div class="col-md-6">2 суток</div>
@@ -382,12 +351,10 @@ h1, h2, h3, h4, h5, h6{margin-bottom:1.1em;}
 							<div class="col-md-6"><span>4 p.</span></div>
 						</div>
 					</div>
-					<div class="row">
+					<div class="row text2">
 						<div class="col-md-4">
-							<div class="row">
 								<div class="col-md-6">7 суток</div>
 								<div class="col-md-6"><span>3 p.</span></div>
-							</div>
 						</div>
 						<div class="col-md-4">
 							<div class="col-md-6">8 суток</div>
@@ -398,14 +365,11 @@ h1, h2, h3, h4, h5, h6{margin-bottom:1.1em;}
 							<div class="col-md-6"><span>2 p.</span></div>
 						</div>
 					</div>
-					<h3>Прокат горнолыжной маски</h3>
-					
-					<div class="row">
-						<div class="col-md-4">
-							<div class="row">
+					<h3>Прокат горнолыжной маски</h3>				
+					<div class="row text2">
+						<div class="col-md-4">>
 								<div class="col-md-6">1 сутки</div>
 								<div class="col-md-6"><span>3 p.</span></div>
-							</div>
 						</div>
 						<div class="col-md-4">
 							<div class="col-md-6">2 суток</div>
@@ -416,12 +380,10 @@ h1, h2, h3, h4, h5, h6{margin-bottom:1.1em;}
 							<div class="col-md-6"><span>3 p.</span></div>
 						</div>
 					</div>
-					<div class="row">
+					<div class="row text2">
 						<div class="col-md-4">
-							<div class="row">
 								<div class="col-md-6">7 суток</div>
 								<div class="col-md-6"><span>2 p.</span></div>
-							</div>
 						</div>
 						<div class="col-md-4">
 							<div class="col-md-6">8 суток</div>
@@ -440,15 +402,13 @@ h1, h2, h3, h4, h5, h6{margin-bottom:1.1em;}
 				<div class="col-md-4">
 					<img src="img/prokat/p4.jpg" alt="доска" class="img-responsive">
 				</div>
-				<div class="col-md-8">
+				<div class="col-md-8 text3">
 					<h3>Прокат защиты</h3>
 				
-					<div class="row">
+					<div class="row text2">
 						<div class="col-md-4">
-							<div class="row">
 								<div class="col-md-6">1 сутки</div>
 								<div class="col-md-6"><span>5 p.</span></div>
-							</div>
 						</div>
 						<div class="col-md-4">
 							<div class="col-md-6">2 суток</div>
@@ -459,12 +419,10 @@ h1, h2, h3, h4, h5, h6{margin-bottom:1.1em;}
 							<div class="col-md-6"><span>4 p.</span></div>
 						</div>
 					</div>
-					<div class="row">
+					<div class="row text2">
 						<div class="col-md-4">
-							<div class="row">
 								<div class="col-md-6">7 суток</div>
 								<div class="col-md-6"><span>3 p.</span></div>
-							</div>
 						</div>
 						<div class="col-md-4">
 							<div class="col-md-6">8 суток</div>
@@ -477,17 +435,12 @@ h1, h2, h3, h4, h5, h6{margin-bottom:1.1em;}
 					</div>
 				</div>
 			</div>
-
 		</div>
 	</section>
-
-
-	
 
 	<div class="okno">
 		<div class="fixedfon"></div>
 	</div>
-
 
 	<section class="form form-bg">
 		<div class="mailnews">
@@ -506,8 +459,6 @@ h1, h2, h3, h4, h5, h6{margin-bottom:1.1em;}
 		</div>
 	</section>
 	
-
-
 	<footer class="footer">
 		<a id=cont></a>
 		<div class="container">
@@ -515,7 +466,6 @@ h1, h2, h3, h4, h5, h6{margin-bottom:1.1em;}
 				<div class="col-md-4">
 					<div class="contact">
 					<h3>Наши контакты</h3>
-
 					<p><i class="fa fa-map-marker" aria-hidden="true"></i>  Наш адрес: г. Минск пр. Рокоссовского</p>
 					<p><i class="fa fa-phone" aria-hidden="true"></i>  +375(29)8888888</p>
 					<p><i class="fa fa-envelope-o" aria-hidden="true"></i>  snowbord@yandex.ru</p>
