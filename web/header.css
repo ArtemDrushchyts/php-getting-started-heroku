@@ -1,0 +1,87 @@
+body {
+	font-family: sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.6;
+	font-family: "RobotoRegular", sans-serif;
+	overflow-x: hidden;
+}
+.hidden {
+	display: none;
+}
+body {
+    padding:0;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 100%;
+}
+h1, h2, h3, h4, h5, h6
+{
+    font-family: 'Roboto Slab', serif;
+}
+h1, h2, h3, h4, h5, h6
+{
+    margin-bottom: 1.1em;
+}
+.navbar-brand img {
+	width: 50px;
+	margin-top: -15px;
+}
+.navbar-default .navbar-nav > li > a {
+	font-size: 25px;
+	margin-right: 25px;
+}
+.block1 {
+	height: 100%;
+}
+.overlay h1 {
+    text-align:center;
+    color:#fff;
+    font-size: 50px;
+    margin-top:17%;
+}
+.header-button-block {
+	text-align: center;
+}
+.header-button {
+	display: inline-block;
+	text-decoration: none;
+	border-radius: 50px;
+	cursor: pointer;
+	border: none;
+	background-color: #ffffff;
+	color: #072b6f;
+	font-weight: 700; 
+	padding: 17px 55px;
+	margin-top: 33px;
+	z-index: 50;
+}
+.header-button:hover {
+	background-color: #3F3FB7;
+	color: #ffffff;
+	text-decoration: none;
+}
+.fullscreen-bg {
+    overflow: hidden;
+    position: relative;
+    
+    width: 100%;
+    padding-top:45%;
+}
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -200;
+}
+.overlay {
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
