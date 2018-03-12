@@ -50,8 +50,10 @@
 	}
 	.text2 {
 		display: inline-block;
+		text-align: center;
+		vertical-align: middle;
 	}
-	.text3 {
+	.text7 {
 		text-align: center;
 	}
 }

@@ -231,7 +231,7 @@ h1, h2, h3, h4, h5, h6{margin-bottom:1.1em;}
 				<div class="col-md-4">
 					<img src="img/prokat/p1.jpg" alt="доска" class="img-responsive">
 				</div>
-				<div class="col-md-8 text3">
+				<div class="col-md-8 text7">
 					<h3>Прокат сноубордов</h3>					
 					<div class="row text2">
 						<div class="col-md-4">
@@ -268,7 +268,7 @@ h1, h2, h3, h4, h5, h6{margin-bottom:1.1em;}
 				<div class="col-md-4">
 					<img src="img/prokat/p2.jpg" alt="доска" class="img-responsive">
 				</div>
-				<div class="col-md-8 text3">
+				<div class="col-md-8 text7">
 					<h3>Прокат горнолыжной куртки</h3>				
 					<div class="row text2">
 						<div class="col-md-4">
@@ -335,7 +335,7 @@ h1, h2, h3, h4, h5, h6{margin-bottom:1.1em;}
 				<div class="col-md-4">
 					<img src="img/prokat/p3.jpg" alt="доска" class="img-responsive">
 				</div>
-				<div class="col-md-8 text3">
+				<div class="col-md-8 text7">
 					<h3>Прокат шлема</h3>			
 					<div class="row text2">
 						<div class="col-md-4">
@@ -402,7 +402,7 @@ h1, h2, h3, h4, h5, h6{margin-bottom:1.1em;}
 				<div class="col-md-4">
 					<img src="img/prokat/p4.jpg" alt="доска" class="img-responsive">
 				</div>
-				<div class="col-md-8 text3">
+				<div class="col-md-8 text7">
 					<h3>Прокат защиты</h3>
 				
 					<div class="row text2">
