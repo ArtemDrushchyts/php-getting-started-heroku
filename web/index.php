@@ -16,8 +16,6 @@
 	<!-- Header CSS (First Sections of Website: compress & paste after release from _header.css here) -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/animate.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<style>body{font-family:sans-serif;font-size:16px;min-width:320px;position:relative;line-height:1.6;font-family:"RobotoRegular", sans-serif;overflow-x:hidden;}
 .hidden{display:none;}
 body{padding:0;margin:0;font-family:'Roboto Condensed', sans-serif;width:100%;}
@@ -83,7 +81,7 @@ h1, h2, h3, h4, h5, h6{margin-bottom:1.1em;}
 		<div class="overlay">
 			<h1>Нужна доска?</h1>
 			<div class="header-button-block">
-			<a href="https://www.google.ru/" alt="прокат" class="header-button">Взять на прокат</a>
+			<a href="https://www.google.ru/" class="header-button">Взять на прокат</a>
 			</div>
 		</div>
 	    <video loop muted autoplay poster="video/plane.jpg" class="fullscreen-bg__video">
@@ -575,7 +573,8 @@ h1, h2, h3, h4, h5, h6{margin-bottom:1.1em;}
 	<script>var ms=document.createElement("link");ms.rel="stylesheet";
 		// ms.href="compiled.min.css";document.getElementsByTagName("head")[0].appendChild(ms);
 	</script>
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<!-- Load Scripts -->
 	<script>var scr = {"scripts":[
 		{"src" : "libs/modernizr/modernizr.js", "async" : false},
