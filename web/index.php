@@ -122,7 +122,7 @@
 
 	<div class="videoG">
 		<h2>Экстримальный вид спорта</h2>
-		<iframe src="https://www.youtube.com/embed/0uGETVnkujA"  allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+		<iframe width="100%" height="500" src="https://www.youtube.com/embed/0uGETVnkujA"  allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
 
 	<section class="block2">
 		<h3>Подарите себе незабываемые эмоции!</h3>
