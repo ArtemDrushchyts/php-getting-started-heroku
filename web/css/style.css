@@ -8,7 +8,9 @@ body {
 	margin-top: -15px;
 }
 .navbar {
-	background-color: rgba(252, 252, 252, 0);
+	background-color: #61605e;
+	margin-bottom: 0;
+	border-radius: 0;
 	border:none;
 }
 .navbar-default .navbar-nav > li > a {

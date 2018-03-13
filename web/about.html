@@ -7,11 +7,12 @@
 	<title>О нас</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/animate.css">
 	<link rel="shortcut icon" href="img/borodalyzh.png" type="image/png">
 </head>
 <body>
 	<div class="block1">
-		<nav class="navbar navbar-default navbar-fixed-top">
+		<nav class="navbar navbar-default">
 			<div class="container-fluid">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -39,47 +40,47 @@
   </div>
 
 	<section class="block3">
-		<h2 class="block3-title">НАШИ ПРЕИМУЩЕСТВА</h2>
+		<h2 class="block3-title wow fadeInRightBig"  data-wow-delay="0.5s">НАШИ ПРЕИМУЩЕСТВА</h2>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-6 wow fadeInLeftBig" data-wow-delay="1s">
 					<div>
-					<img class="img-responsive img-rounded" src="img/advantages/700_FO59051698_4669ec16b8c18f2d0e8672aafae9d52c.jpg" alt="лыжи">
+					<img class="img-responsive img-rounded"  src="img/advantages/700_FO59051698_4669ec16b8c18f2d0e8672aafae9d52c.jpg" alt="лыжи">
 					</div>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6 wow fadeInRightBig" data-wow-delay="0.5s">
 					<h3>ИНВЕНТАРЬ</h3>
 					<p>В течение сезона мы следим за снаряжением и поддерживаем его в отличном состоянии. Для этого у нас есть целая мастерская с первоклассными специалистами!</p>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-6 wow fadeInLeftBig" data-wow-delay="1s">
 					<h3>ОБУЧЕНИЕ</h3>
 					<p>Вы делаете первые шаги в сноубординге? Воспользуйтесь услугами нашего проката и получите 2 часа обучения с профессиональным инструктором всего за 50 р.</p>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6 wow fadeInRightBig" data-wow-delay="1s">
 					<div class="block3-img">
 						<img src="img/advantages/img2.jpg" alt="обучение" class="img-responsive img-rounded">
 					</div>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-6 wow fadeInLeftBig" data-wow-delay="1s">
 					<div class="block3-img">
 					<img src="img/advantages/img3.jpg" alt="хранение" class="img-responsive img-rounded">
 					</div>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6 wow fadeInRightBig" data-wow-delay="1s">
 					<h3>ХРАНЕНИЕ</h3>
 					<p>Любой сноубордист может оставить свое снаряжение у нас на ночь, чтобы не таскаться с ним по всему Минску. А для наших клиентов, это совсем бесплатно!</p>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-6 wow fadeInLeftBig" data-wow-delay="1s">
 					<h3>ОБСЛУЖИВАНИЕ</h3>
 					<p>Ремонтируем любое снаряжение, любой сложности и даем гарантию качества</p>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6 wow bounceInRight" data-wow-delay="1s">
 					<div class="block3-img">
 					<img src="img/advantages/294.jpg" alt="обслуживание" class="img-responsive img-rounded">
 					</div>
@@ -130,5 +131,9 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
 </body>
 </html>
